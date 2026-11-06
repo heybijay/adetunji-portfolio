@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: abujana-builds
+    runtime: static
+    buildCommand: echo "Publishing static portfolio"
+    staticPublishPath: ./public
